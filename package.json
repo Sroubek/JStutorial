@@ -1,0 +1,22 @@
+{
+  "name": "jstutor",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sroubek/JStutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sroubek/JStutorial/issues"
+  },
+  "homepage": "https://github.com/Sroubek/JStutorial#readme",
+  "dependencies": {
+    "mocha": "^4.0.1"
+  }
+}
