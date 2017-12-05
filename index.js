@@ -6,7 +6,7 @@ const Calculate = {
    for (let i = 0; i < inputArrayLength; i++){
      totalSum += inputArray[i]
    }
-   return
+   return totalSum;
  }
 }
 
@@ -25,4 +25,4 @@ const Calculate2 = {
     }
   }
 
-  module.exports = Calculate;
+  module.exports = Calculate2;

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Calculate =  require('./index.js');
+Calculate =  require('./index.js');
 
 describe('Calculate', () => {
   describe('.sum',() => {
@@ -31,15 +31,17 @@ describe('Calculate', () => {
   });
 });
 
-const eat = require('./functions.js');
+const Taste = require('./functions.js');
 
-describe('eat', () => {
+describe('Taste', () => {
+  describe('.type',() => {
     it('returns sentance', () => {
       const expectedResult = 'bananas tasted really good.';
       const inputArray = "bananas";
-      const result = inputArray;
+      const result = Taste.type(inputArray);
       assert.equal(result, expectedResult)
 
       assert.equal(result, expectedResult);
     });
+      });
 });
