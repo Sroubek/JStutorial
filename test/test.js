@@ -1,5 +1,5 @@
 const assert = require('assert');
-Calculate =  require('./index.js');
+Calculate =  require('../index.js');
 
 describe('Calculate', () => {
   describe('.sum',() => {
@@ -31,7 +31,7 @@ describe('Calculate', () => {
   });
 });
 
-const Taste = require('./functions.js');
+const Taste = require('../functions.js');
 
 describe('Taste', () => {
   describe('.type',() => {
