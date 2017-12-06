@@ -1,5 +1,6 @@
+'use strict'
 const assert = require('assert');
-Calculate =  require('../index.js');
+const Calculate =  require('../index.js');
 
 describe('Calculate', () => {
   describe('.sum',() => {
